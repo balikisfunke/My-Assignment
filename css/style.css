@@ -1,4 +1,9 @@
 body{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #777;
 
 }
 
@@ -9,14 +14,74 @@ body{
 }
 
 
-.header{
-    background-color:antiquewhite;
+.container{
+    max-width: 1140px;
+    background-color: #eee;
+    margin: auto;
     height: 100vh;
 }
 
 
+.header{
+    /* background-color:antiquewhite; */
+    /* height: 100vh; */
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.btn{
+    margin: 10px;
+}
 
 
+.btn:link,
+.btn:visited{
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 7px 20px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+}
+
+
+/* .debug{
+
+    color: red;
+
+} */
+
+.btn:hover{
+   transform: translateY(-3px);
+   box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+} 
+
+.btn:active{
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+
+}
+
+.btn-add{
+    background-color: #fff;
+    color: blue;
+}
+.btn-update{
+    background-color: #fff;
+    color: green;
+}
+.btn-delete{
+    background-color: #fff;
+    color:red;
+}
+
+.btn-action{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/* 
 .buttons{
 padding: 15px 25px;
 background-color:white;
@@ -54,7 +119,7 @@ color: green;
 .btn-3{
 color: red;
 }
-
+ */
 
 
 
